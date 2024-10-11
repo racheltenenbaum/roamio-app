@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(34, 109, 92);
+}
+
+h2 a {
+  color: #f66f4a;
+}
+
+.link-button {
+  font-weight: bold;
+  color: #3a6251;
+}
+
+.link-button:hover {
+  color: #f66f4a;
+}
+
+.form-format {
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font-family: Anton, sans-serif;
+  color: #3a6251;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Anton, sans-serif;
+  color: #f66f4a;
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+}
+
+h5 {
+  font-family: Montserrat, sans-serif;
+}
+
+h6 {
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar-logo {
+  font-family: Anton, sans-serif;
+  color: #3a6251;
+}
+
+.error-msg {
+  margin-top: 3px;
+  color: #b72818;
+}
+
+.main-error-msg {
+  margin-bottom: 20px;
+  color: #b72818;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+}
+
+.tag-grey {
+  color: white;
+  background-color: rgb(161, 161, 161);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.tag-green {
+  color: white;
+  background-color: rgb(40, 120, 40);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.tag-purple {
+  color: white;
+  background-color: #7cc6a6;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.user-avatar {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.user-avatar-comment {
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.center-div {
+  margin: auto;
+  width: 50%;
+}
+
+.user-index-image {
+  width: 100%;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.btn-success {
+  background-color: #3a6251;
+  border: #3a6251;
+}
+
+.btn-success:hover {
+  background-color: #7cc6a6;
+}
+
+.form-div {
+  background-color: #bcf4dc;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.customize-form-div {
+  background-color: #bcf4dc;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.details-trip-div {
+  background-color: #ebfcf4;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.form-button-right {
+  display: flex;
+  justify-content: end;
+}
+
+.form-button-bottom-right {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.btn-outline-success {
+  background-color: #bcf4dc;
+  border: #bcf4dc;
+  color: black;
+}
+
+.btn-outline-success:hover {
+  background-color: #3a6251;
+  border: #3a6251;
+  color: white;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #3a6251;
+  border-color: #7cc6a6;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #f66f4a;
+  border-color: #f66f4a;
+}
+
+.fa-margin {
+  margin-right: 5px;
+}
+
+.fa-margin-left {
+  margin-left: 5px;
+}
+
+.subtitle {
+  font-family: Anton, sans-serif;
+  font-size: 26px;
+  color: #2e4c40;
+}
+
+.itin-title {
+  color: #2e4c40;
+  font-family: Anton, sans-serif;
+}
+
+.itin-subtitle {
+  color: #2e4c40;
+  background-color: #bcf4dc;
+  padding: 5px;
+  font-family: Montserrat, sans-serif;
+}
+
+.itin-card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.journal-username {
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.post-img {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.horizontal-card-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-secondary {
+  border: none;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.btn-modal-no-format {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  margin: 0;
+}
+
+.comment-styling {
+  background-color: #bcf4dc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-dialog {
+  pointer-events: all;
+}
+
+.btn-orange {
+  background-color: #f66f4a;
+  color: white;
+  border: none;
+}
+
+.btn-orange:hover {
+  color: #3a6251;
+  background-color: #bcf4dc;
+}
+
+.fa-plane {
+  color: #7cc6a6;
+}
+
+.checkbox {
+  accent-color: #f66f4a;
+}
+
+.mid-title {
+  color: #f66f4a;
+}
+
+.delete-modal-title {
+  font-weight: bold;
+}
+
+.username-navbar {
+  color: #f66f4a;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.colored-text-div {
+  background-color: #2e4c40;
+  color: #ebfcf4;
+  width: 60%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.word-reveal-animation {
+  border-right: solid 3px #f66f4a;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 28px;
+  font-weight: bold;
+  color: #3a6251;
+  margin: 0 auto;
+  animation: animated-text 4s steps(29, end) 0.5s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 472px;
+  }
+}
+
+.animation-index-img {
+  position: relative;
+  animation-name: img-run;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes img-run {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 60%;
+  }
+}
+
+.animation-index-text {
+  visibility: hidden;
+  animation-name: delay-in;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes delay-in {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.animation-index-img-2 {
+  visibility: hidden;
+}
+
+.animation-index-div {
+  align-items: center;
+  margin-top: -500px;
+}
+
+.about-btn {
+  width: 300px;
+  padding: 30px;
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: 700;
+  background-color: #ebfcf4;
+  border-color: #7cc6a6;
+  color: #7fa895;
+}
+
+.about-btn:hover {
+  color: #3a6251;
+  background-color: #ebfcf4;
+  border: #ebfcf4;
+}
